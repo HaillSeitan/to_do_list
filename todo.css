@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.completed {
+  color: grey !important;
+  text-decoration: line-through;
+}
+
+#deadline {
+  color: grey;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  gap: 16px;
+  padding: 24px;
+  min-height: 50vmin;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgb(162, 179, 179);
+  color: rgb(60, 60, 60);
+}
+
+.container form {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
